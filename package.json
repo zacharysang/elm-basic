@@ -9,7 +9,8 @@
   },
   "scripts": {
     "watch": "./node_modules/chokidar-cli/index.js 'src/**' -c 'elm make src/Main.elm --output=public/main.js'",
-    "make": "elm make src/Main.elm --output=public/main.js"
+    "make": "elm make src/Main.elm --output=public/main.js",
+    "elm-basic-init": "ln -s ../src/static/index.html public/index.html && ln -s ../src/static/index.css public/index.css"
   },
   "repository": {
     "type": "git",
