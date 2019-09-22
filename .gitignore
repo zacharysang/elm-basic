@@ -1,0 +1,7 @@
+# ignore generated files
+public
+package-lock.json
+
+# ignore dependencies
+node_modules
+elm-stuff

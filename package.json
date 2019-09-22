@@ -1,0 +1,24 @@
+{
+  "name": "contentious",
+  "version": "1.0.0",
+  "description": "application for presenting content and comments",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "chokidar-cli": "^2.0.0"
+  },
+  "scripts": {
+    "watch": "./node_modules/chokidar-cli/index.js 'src/**' -c 'elm make src/Main.elm --output=public/main.js'",
+    "make": "elm make src/Main.elm --output=public/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zacharysang/contentious.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zacharysang/contentious/issues"
+  },
+  "homepage": "https://github.com/zacharysang/contentious#readme"
+}
